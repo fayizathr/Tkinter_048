@@ -1,4 +1,2 @@
 
-
-# Membuat jendela aplikasi
-root = tk.Tk()
+root.title("Aplikasi Prediksi Prodi Pilihan")
