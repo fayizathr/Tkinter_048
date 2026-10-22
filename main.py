@@ -1,2 +1,3 @@
 
-root.title("Aplikasi Prediksi Prodi Pilihan")
+root.geometry("500x550")
+
