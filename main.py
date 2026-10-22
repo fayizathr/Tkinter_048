@@ -1,9 +1,16 @@
 
-# Label judul
-judul = tk.Label(
-    root,
-    text="Aplikasi Prediksi Prodi Pilihan",
-    font=("Arial", 16, "bold")
-)
-judul.pack(pady=15)
+
+# Daftar mata pelajaran
+mapel = [
+    "Matematika",
+    "Bahasa Indonesia",
+    "Bahasa Inggris",
+    "Fisika",
+    "Kimia",
+    "Biologi",
+    "Informatika",
+    "Ekonomi",
+    "Sosiologi",
+    "Geografi"
+]
 
