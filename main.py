@@ -1,8 +1,11 @@
 
-# Tombol prediksi
-tombol = tk.Button(
+# Label hasil prediksi
+hasil = tk.Label(
     root,
-    text="Hasil Prediksi",
-    command=hasil_prediksi
+    text="Hasil prediksi akan muncul di sini",
+    font=("Arial", 11, "bold")
 )
-tombol.pack(pady=15)
+hasil.pack(pady=5)
+
+# Menjalankan aplikasi
+root.mainloop()
